@@ -1,0 +1,27 @@
+.fa-check-circle {
+    color: BADA55;
+}
+i {
+    display: inline-block;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    font-size: 20px;
+    margin: 5px 0 10px 0;
+    padding: 5px 0;
+    border-bottom: solid 0.25px #cccaca;
+}
+
+.button-group {
+    justify-items: center;
+}
+
+ul{
+    padding:0;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Library App</title>
+        <script src="https://kit.fontawesome.com/d128735a24.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h2>Library App!</h2>
+        <form id="newBookForm">
+            <label for="booktitle"></label> 
+            <input type="text" name="title" placeholder="Book Title">
+            <label for="author"></label> 
+            <input type="text" name="author" placeholder="Author">
+            <input type="checkbox" name="readStatus">Read / Unread </input>
+            <br>
+            <input type="submit" value="Add Book">
+        </form>
+        <ul id="bookList">
+        </ul>
+    </body>
+    <script src="app.js"></script>
+</html>
